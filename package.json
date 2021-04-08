@@ -1,0 +1,29 @@
+{
+  "name": "naad",
+  "version": "1.0.0",
+  "description": "This is Nasrul Fuad's web resume",
+  "main": "dist/index.html",
+  "author": "Nasrul Fuad <nasrulfuad08@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "yarn parcel src/index.html",
+    "prod": "yarn parcel build src/index.html"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "posthtml-expressions": "^1.7.1",
+    "posthtml-include": "^1.7.0",
+    "posthtml-load-config": "^2.0.0",
+    "tailwindcss": "^2.1.1",
+    "typescript": "^4.2.4"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "postcss-cli": "^8.3.1"
+  }
+}
