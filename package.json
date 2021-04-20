@@ -1,30 +1,50 @@
 {
-  "name": "naad",
-  "version": "1.0.0",
-  "description": "This is Nasrul Fuad's web resume",
-  "main": "dist/index.html",
-  "author": "Nasrul Fuad <nasrulfuad08@gmail.com>",
-  "license": "MIT",
+  "name": "portfoliov2",
+  "version": "0.1.0",
   "private": true,
+  "dependencies": {
+    "@craco/craco": "^6.1.1",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.1.2",
+    "web-vitals": "^1.0.1"
+  },
   "scripts": {
-    "dev": "yarn clean && yarn parcel src/index.html",
-    "prod": "yarn clean && yarn parcel build src/index.html",
-    "clean": "rm -rf dist/* && rm -rf .parcel-cache/*"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.9",
-    "posthtml-expressions": "^1.7.1",
-    "posthtml-include": "^1.7.0",
-    "posthtml-load-config": "^2.0.0",
-    "tailwindcss": "^2.1.1",
-    "typescript": "^4.2.4"
-  },
-  "engines": {
-    "node": ">=12"
-  },
-  "dependencies": {
-    "parcel": "^2.0.0-beta.2",
-    "postcss-cli": "^8.3.1"
+    "@tailwindcss/postcss7-compat": "^2.1.0",
+    "autoprefixer": "^9",
+    "postcss": "^7",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

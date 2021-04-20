@@ -1,9 +1,0 @@
-{
-  "plugins": {
-    "posthtml-include": {
-      "root": "src"
-    },
-    "posthtml-expressions": {
-    }
-  }
-}

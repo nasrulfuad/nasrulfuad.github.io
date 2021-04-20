@@ -1,12 +1,10 @@
-const colors = require("tailwindcss/colors");
-
 module.exports = {
   future: {
     removeDeprecatedGapUtilities: true,
     purgeLayersByDefault: true,
   },
   darkMode: false, // or 'media' or 'class'
-  purge: ["./src/*.html"],
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     fontFamily: {
       sans: ["Lato", "sans-serif"],
