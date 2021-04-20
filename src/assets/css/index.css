@@ -3,3 +3,13 @@
 @tailwind components;
 
 @tailwind utilities;
+
+::-moz-selection,
+::selection {
+  color: #fff;
+  background: #357efc;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,27 +1,30 @@
-<include src="components/title.html" locals='{
-  "title": "skill"
-}'></include>
-
-<div class="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8">
-  <include src="components/skill-info.html" locals='{
-    "category": "Web Technology",
-    "items": "GraphQL / Git / Docker / Redis / Microservices"
+<section id="skill">
+  <include src="components/title.html" locals='{
+    "title": "skill"
   }'></include>
 
-  <include src="components/skill-info.html" locals='{
-    "category": "Framework / Library",
-    "items": "Laravel / ExpressJS / NestJS / ReactJS"
-  }'></include>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8">
+    <include src="components/skill-info.html" locals='{
+      "category": "Web Technology",
+      "items": "GraphQL / Git / Docker / Redis / Microservices"
+    }'></include>
 
-  <include src="components/skill-info.html" locals='{
-    "category": "Database",
-    "items": "MySQL / SQLite / MongoDB"
-  }'></include>
+    <include src="components/skill-info.html" locals='{
+      "category": "Framework / Library",
+      "items": "Laravel / ExpressJS / NestJS / ReactJS"
+    }'></include>
 
-  <include src="components/skill-info.html" locals='{
-    "category": "Programming Language",
-    "items": "Typescript / Javascript / PHP"
-  }'></include>
-</div>
+    <include src="components/skill-info.html" locals='{
+      "category": "Database",
+      "items": "MySQL / SQLite / MongoDB"
+    }'></include>
 
-<include src="components/wave.html"></include>
+    <include src="components/skill-info.html" locals='{
+      "category": "Programming Language",
+      "items": "Typescript / Javascript / PHP"
+    }'></include>
+  </div>
+
+  <include src="components/wave.html"></include>
+
+</section>

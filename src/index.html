@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="stylesheet" href="assets/css/index.css" />
+  <link rel="shortcut icon" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./assets/css/index.css" />
   <title>Nasrul Fuad | naad</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Sacramento&family=Lora&display=swap"
@@ -13,18 +14,18 @@
 </head>
 
 <body class="font-sans bg-background pb-20">
-  <div class="container mx-auto w-full md:w-11/12 lg:w-9/12 xl:w-9/12 2xl:w-9/12">
+  <div class="container mx-auto w-full md:w-11/12 lg:w-9/12 xl:w-9/12 2xl:w-7/12">
     <include src="partials/header.html"></include>
 
-    <div class="bg-white px-5 pb-16 sm:px-10 h-full py-26 md:px-24 lg:px-20 xl:px-24 2xl:px-52">
+    <div class="bg-white px-5 pb-16 sm:px-10 h-full py-26 md:px-24 lg:px-20 xl:px-24 2xl:px-36">
       <include src="partials/main.html" locals='{
         "name": "Nasrul Fuad",
         "specialist": "Web Developer"
       }'></include>
 
-      <include src="partials/intro.html"></include>
+      <include src="partials/about.html"></include>
 
-      <include src="partials/experience.html"></include>
+      <include src="partials/work.html"></include>
 
       <include src="partials/education.html"></include>
 
@@ -35,7 +36,7 @@
       <include src="partials/footer.html"></include>
     </div>
   </div>
-  <script src="assets/js/index.ts"></script>
+  <script src="./assets/js/index.ts"></script>
 </body>
 
 </html>
