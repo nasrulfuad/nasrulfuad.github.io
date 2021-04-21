@@ -1,4 +1,4 @@
-import avatar from "../../images/avatar.svg";
+import avatar from "../../images/avatar.png";
 
 interface Props {
   specialist: string;

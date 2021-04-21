@@ -1,19 +1,20 @@
 export function About() {
   return (
     <section id="about">
-      <div className="text-md md:text-lg leading-7 text-secondary font-serif subpixel-antialiased tracking-wider">
+      <div className="text-md md:text-lg leading-7 text-secondary subpixel-antialiased tracking-wider font-sans">
         <p>
-          <span className="font-display text-5xl">Hi</span>, I’m Nasrul from
-          Indonesia, web developer with 3 years of experience in developing user
-          interfaces, debugging and building a web applications incorporating a
-          range of technologies and experienced as a mentor web developer at{" "}
+          <span className="font-display text-5xl select-none">Hi</span>, I’m
+          Nasrul from Indonesia, web developer with 3 years of experience in
+          developing user interfaces, debugging and building a web applications
+          incorporating a range of technologies and experienced as a mentor web
+          developer at{" "}
           <a
-            className="text-primary underline"
+            className="text-primary font-bold"
             target="_blank"
             href="https://qodr.or.id"
             rel="noreferrer noopener"
           >
-            Quality Muslim Coder.
+            qodr.or.id
           </a>
         </p>
         <br />

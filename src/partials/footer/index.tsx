@@ -1,7 +1,7 @@
 export function Footer() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-4 -mb-10 mt-20">
-      <div className="text-sm text-center order-last md:order-first pt-5 md:pt-0">
+      <div className="text-sm text-center order-last md:order-first pt-5 md:pt-0 select-none">
         Made With ❤️ By Nasrul
       </div>
       <div className="flex justify-center space-x-5">
