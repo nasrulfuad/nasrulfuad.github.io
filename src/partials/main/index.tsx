@@ -8,7 +8,7 @@ interface Props {
 export function Main({ specialist, name }: Props) {
   return (
     <div className="pt-20 pb-10">
-      <h4 className="font-display text-4xl lg:text-5xl text-primary text-center tracking-wider select-none">
+      <h4 className="font-display text-5xl lg:text-7xl text-primary text-center tracking-wider select-none">
         {name}
       </h4>
       <small className="text-center block text-gray uppercase text-xs my-5">

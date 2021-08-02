@@ -11,3 +11,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.half__background {
+  background: linear-gradient(90deg, #ffffff 50%, #f5f8eb 50%);
+}

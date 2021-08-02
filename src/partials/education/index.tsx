@@ -22,7 +22,7 @@ const infos = [
   {
     year: "2018 - 2022",
     place: "QODR (Quality Muslim Coder)",
-    position: "Web Developer",
+    position: "Software Engineer",
     margin: 2,
   },
 ];
@@ -30,7 +30,7 @@ const infos = [
 export function Education() {
   return (
     <section id="education">
-      <Title title="education" />
+      <Title title="Educations" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-4">
         {infos.map((info, index) => (

@@ -2,27 +2,31 @@ import { SkillInfo, Title, Wave } from "../../components";
 
 const skills = [
   {
-    category: "Web Technology",
-    items: "GraphQL / Git / Docker / Redis / Microservices",
+    category: "Web Technologies",
+    items: "GraphQL / Git / Docker / Microservices",
   },
   {
-    category: "Framework / Library",
-    items: "Laravel / ExpressJS / NestJS / ReactJS",
+    category: "Frameworks & Libraries",
+    items: "Laravel / NestJS / ReactJS",
   },
   {
-    category: "Database",
-    items: "MySQL / SQLite / MongoDB",
+    category: "Databases",
+    items: "MySQL / PostgreSQL / MongoDB",
   },
   {
-    category: "Programming Language",
+    category: "Programming Languages",
     items: "Typescript / Javascript / PHP",
+  },
+  {
+    category: "Others",
+    items: "Redis / NodeJS / Websocket",
   },
 ];
 
 export function Skill() {
   return (
     <section id="skill">
-      <Title title="skill" />
+      <Title title="Skills" />
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-8">
         {skills.map((skill, index) => (

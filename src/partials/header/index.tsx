@@ -9,7 +9,7 @@ export function Header() {
         </li>
         <li>
           <a className="navigation__item" href="#work">
-            Work
+            Works
           </a>
         </li>
         <li className="font-display lowercase text-6xl text-primary font-light">
@@ -17,12 +17,12 @@ export function Header() {
         </li>
         <li>
           <a className="navigation__item" href="#education">
-            Education
+            Educations
           </a>
         </li>
         <li>
           <a className="navigation__item" href="#skill">
-            Skill
+            Skills
           </a>
         </li>
       </ul>
