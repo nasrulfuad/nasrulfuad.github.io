@@ -8,8 +8,8 @@ const infos: InfoProps[] = [
     position: "Software Engineer",
     margin: 6,
     tasks: [
-      "Develope a web app registration member at qodr",
-      "Used Laravel, ReactJS, Antd Design and MySQL",
+      "Develop a web app registration member at qodr",
+      "Used Laravel, ReactJS, Ant Design and MySQL",
       "IT Div Lead",
       "Mentoring new member",
       "and a lot of experiences i’ve got being a member",
@@ -21,7 +21,7 @@ const infos: InfoProps[] = [
     position: "Frontend Developer",
     margin: 6,
     tasks: [
-      "Develope an interface web app",
+      "Develop an interface web app",
       "Work with JQuery, bootstrap and etc.",
       "Work with team",
     ],
@@ -32,7 +32,7 @@ const infos: InfoProps[] = [
     position: "Web Developer",
     margin: 6,
     tasks: [
-      "Develope a simple web app with NodeJS",
+      "Develop a simple web app with NodeJS",
       "Work with Javascript, bootstrap and etc.",
       "Used mysql database",
     ],
@@ -43,7 +43,7 @@ const infos: InfoProps[] = [
     position: "Web Developer",
     margin: 6,
     tasks: [
-      "Maintenance an eccomerce web app",
+      "Maintenance an ecommerce web app",
       "Work with Laravel, livewire, bootstrap and etc.",
       "Work with team",
       "Remote",
@@ -57,7 +57,7 @@ const infos: InfoProps[] = [
     tasks: [
       "Used NestJS framework",
       "Built an ecommerce webapp with auction-bid system",
-      "Developed a realtime bid using socket io",
+      "Develop a realtime bid using socket io",
       "Created a queue job that take too long process to perform during a typical web request using bullJS",
       "Implemented a Service Layer, Observable and another design patterns",
       "Created an upload file service to the cloud (cloudinary)",
@@ -65,7 +65,7 @@ const infos: InfoProps[] = [
       "Worked with DOCKER for the development",
       "Used POSTGRES database and PRISMA for the ORM",
       "Designed the database",
-      "Develope a BOT Telegram",
+      "Develop a BOT Telegram",
     ],
   },
 ];
