@@ -57,13 +57,13 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # is necessary
+    - JSON
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: nasrulfuad
+  title: nasrul.dev
   description: "Nasrul is a software engineer with 3 years of experiences in developing user interfaces, debugging and building a web applications,
-    incorporating a range of technologies and experienced as a mentor web developer 🌟 at Quality Muslim Coder"
+    incorporating a range of technologies and experienced as a mentor web developer 🌟 at qodr.or.id"
   keywords:
     [
       Blog,
@@ -71,6 +71,7 @@ params:
       Qodr,
       Qodrbee,
       nasrulfuad,
+      "nasrul.dev",
       "Nasrul Fuad",
       "Web Developer",
       "Software Engineer",
@@ -126,7 +127,7 @@ params:
     subtitle: >
       **Software engineer** with 3 years of experiences in developing user interfaces,
       debugging and building a web applications, incorporating a range of technologies
-      and experienced as a mentor web developer 🌟 at [*Quality Muslim Coder*](https://qodr.or.id).
+      and experienced as a mentor web developer 🌟 at [**qodr.or.id**](https://qodr.or.id).
 
     imageUrl: "/me.jpg"
     imageWidth: 120
