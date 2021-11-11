@@ -80,7 +80,7 @@ params:
       "Pondok Programmer",
     ]
   author: ["Nasrul Fuad"]
-  images: ["cover.png"]
+  images: ["cover.jpg"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
