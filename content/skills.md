@@ -4,7 +4,7 @@ layout: "info"
 title: "Skills 🚀"
 url: "/skills"
 summary: >
-  > *Dorothy followed her through many of the beautiful rooms in her castle.*
+  > *It’s never too late to be what you might have been*.
 ---
 
 # Web Technologies
