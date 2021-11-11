@@ -1,7 +1,6 @@
 ---
-title: 18 Things I Do After Install Elementary
-summary: "In this article is not about how you setup your Operating System, but it's about how I setup my operating system as a software engineer, so after
-  you read this article I hope you have a reference to setup your own"
+title: "18 Things I Do After Install Elementary"
+summary: "In this article I will show you how I setup my Operating System for development as Software Engineer"
 date: 2021-11-10
 weight: 1
 categories: ["tutorial", "elementary", "linux"]

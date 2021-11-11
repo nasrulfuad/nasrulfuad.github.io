@@ -61,9 +61,8 @@ outputs:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: nasrul.dev
-  description: "Nasrul is a software engineer with 3 years of experiences in developing user interfaces, debugging and building a web applications,
-    incorporating a range of technologies and experienced as a mentor web developer 🌟 at qodr.or.id"
+  title: "nasrul.dev is place Nasrul Fuad to share his knowledge about programming..."
+  description: "Nasrul is a software engineer with 3 years of experiences in developing user interfaces, debugging and building a web applications"
   keywords:
     [
       Blog,
