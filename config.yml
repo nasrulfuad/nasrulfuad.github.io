@@ -1,0 +1,194 @@
+baseURL: https://nasrul.dev/
+languageCode: en-us
+title: nasrul.dev
+paginate: 5
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+googleAnalytics: "G-T6NRGQ8Q86"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  en:
+    languageName: English
+    languageAltTitle: English
+    weight: 1
+
+  # id:
+  #   languageName: Indonesia
+  #   languageAltTitle: Indonesia
+  #   weight: 2
+  #   profileMode:
+  #     enabled: true
+  #     title: Nasrul Fuad
+  #     subtitle: >
+  #       **Software engineer** dengan 3 tahun pengalaman pada pengembangan interaksi pengguna, pengecekan dan pembuatan sebuah aplikasi berbasis website,
+  #       menggabungkan
+  #       <br/> beberapa teknologi dan berpengalaman sebagai seorang mentor web developer <br/> 🌟 di [*Quality Muslim Coder*](https://qodr.or.id).
+
+  #     imageUrl: "/me.jpg"
+  #     imageWidth: 120
+  #     imageHeight: 120
+  #     imageTitle: avatar
+  #     buttons:
+  #       - name: experiences
+  #         url: experiences
+  #       - name: skills
+  #         url: skills
+  #   menu:
+  #     main:
+  #       - identifier: categories
+  #         name: kategori
+  #         url: /categories/
+  #         weight: 10
+  #       - identifier: tags
+  #         name: label
+  #         url: /tags/
+  #         weight: 20
+
+# for search
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: nasrulfuad
+  description: "Nasrul is a software engineer with 3 years of experiences in developing user interfaces, debugging and building a web applications,
+    incorporating a range of technologies and experienced as a mentor web developer 🌟 at Quality Muslim Coder"
+  keywords:
+    [
+      Blog,
+      Portfolio,
+      Qodr,
+      Qodrbee,
+      nasrulfuad,
+      "Nasrul Fuad",
+      "Web Developer",
+      "Software Engineer",
+      "Backend Developer",
+      "Quality Muslim Coder",
+      "Pondok Qodr",
+      "Pondok Programmer",
+    ]
+  author: ["Nasrul Fuad"]
+  images: ["cover.png"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "summary", "content"]
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShareButtons: ["twitter", "linkedin", "facebook", "telegram", "reddit"]
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  displayFullLangName: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "favicon.ico"
+    favicon16x16: "favicon-16x16.png"
+    favicon32x32: "favicon-32x32.png"
+    apple_touch_icon: "apple-touch-icon.png"
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Nasrul Fuad
+    subtitle: >
+      **Software engineer** with 3 years of experiences in developing user interfaces,
+      debugging and building a web applications, incorporating a range of technologies
+      and experienced as a mentor web developer 🌟 at [*Quality Muslim Coder*](https://qodr.or.id).
+
+    imageUrl: "/me.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: avatar
+    buttons:
+      - name: experiences
+        url: experiences
+      - name: skills
+        url: skills
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/nasrulfuad88"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/11888578/nasrul"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/nasrul-fuad-0325b314a"
+    - name: instagram
+      url: "https://instagram.com/nasrulfuad88"
+    - name: github
+      url: "https://github.com/nasrulfuad"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "ASIAP"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+menu:
+  main:
+    - identifier: posts
+      name: posts
+      url: /posts
+      weight: 1
+    - identifier: archives
+      name: archives
+      url: /archives
+      weight: 2
+    - identifier: categories
+      name: categories
+      url: /categories
+      weight: 3
+    - identifier: search
+      name: search
+      url: /search
+      weight: 4
+
+taxonomies:
+  category: categories
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         # noClasses: false
+#         style: monokai

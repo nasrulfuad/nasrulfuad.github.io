@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://nasrul.dev/posts/linux/18-things-i-do-after-install-elementary/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/categories/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/categories/elementary/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/posts/linux/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/categories/linux/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/posts/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/categories/tutorial/</loc>
+    <lastmod>2021-11-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://nasrul.dev/archives/</loc>
+  </url><url>
+    <loc>https://nasrul.dev/experiences/</loc>
+  </url><url>
+    <loc>https://nasrul.dev/search/</loc>
+  </url><url>
+    <loc>https://nasrul.dev/skills/</loc>
+  </url>
+</urlset>

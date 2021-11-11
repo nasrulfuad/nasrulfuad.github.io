@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>linux on nasrul.dev</title>
+    <link>https://nasrul.dev/categories/linux/</link>
+    <description>Recent content in linux on nasrul.dev</description>
+    <image>
+      <url>https://nasrul.dev/cover.png</url>
+      <link>https://nasrul.dev/cover.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://nasrul.dev/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>18 Things I Do After Install Elementary</title>
+      <link>https://nasrul.dev/posts/linux/18-things-i-do-after-install-elementary/</link>
+      <pubDate>Wed, 10 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://nasrul.dev/posts/linux/18-things-i-do-after-install-elementary/</guid>
+      <description>In this article is not about how you setup your Operating System, but it&amp;rsquo;s about how I setup my operating system as a software engineer, so after you read this article I hope you have a reference to setup your own</description>
+    </item>
+    
+  </channel>
+</rss>
