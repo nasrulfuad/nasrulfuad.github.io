@@ -6,10 +6,6 @@ date: 2021-11-10
 weight: 1
 categories: ["tutorial", "elementary", "linux"]
 author: "Nasrul Fuad"
-cover:
-  image: "images/01.svg"
-  alt: cover
-  caption: 18 Things I Do After Install Elementary
 ---
 
 ### Intro ⚡
