@@ -1,16 +1,18 @@
 ---
 title: "18 Things I Do After Install Elementary"
-summary: "In this article I will show you how I setup my Operating System for development as Software Engineer"
+summary: "In this article I will show you how I setup my Operating System for daily work as Software Engineer"
 date: 2021-11-10
 weight: 1
 categories: ["tutorial", "elementary", "linux"]
 author: "Nasrul Fuad"
+cover:
+  image: ./images/18-things-i-do-after-install-elementary.png
 ---
 
 ### Intro ⚡
 
 As a software engineer, sometimes when I just re-install my Operating System, I need to setup my development for work,
-So in this article I will show you how I setup my elementary OS for development 😄
+So in this article I will show you how I setup it 😄
 
 <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" viewBox="0 0 600 600"><g><polyline points="300.19,299.96 0.49,364.64" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="297.51,288.26 236.28,0.09" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="302.57,311.72 365.64,599.49" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="290.53,314.74 107.24,599.91" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="285.29,290.48 0.2,105.95" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="274.06,317.93 0.15,507.29" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="268.98,294.36 0.38,245.55" fill="none" stroke-width="1" stroke="#fff"></polyline><polyline points="243.01,324.67 0.18,429.79" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="311.56,295.02 599.76,170.87" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="308.75,283.08 455.1,0.08" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="282,273.84 93.92,0.49" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="304.82,264.13 340.33,0.11" fill="none" stroke-width="1" stroke="#fff"></polyline><polyline points="275.63,243.3 171.13,0.21" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="313.84,307.15 599.54,454.8" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="317.28,322.52 530.29,599.99" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="294.39,331.26 246.17,599.96" fill="none" stroke-width="1" stroke="#fff"></polyline><polyline points="323.26,350.06 439.29,599.83" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="257.42,344.04 10.11,599.83" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="277.37,357.54 182.07,599.88" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="243.05,277.44 0.39,181.33" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="255.65,256.91 0.04,8.55" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="328.41,300.97 599.46,310.2" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="326.48,275.34 599.6,21.01" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="354.26,289.75 599.52,243.44" fill="none" stroke="#fff" stroke-width="1"></polyline><polyline points="353.43,313.98 599.55,378.38" fill="none" stroke-width="1" stroke="#fff"></polyline><polyline points="342.34,335.38 599.69,550.47" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="359.91,261.12 599.99,105.33" fill="none" stroke="#1e1d20" stroke-width="1"></polyline><polyline points="342.75,243.6 527.24,0.22" fill="none" stroke="#fff" stroke-width="1"></polyline></g></svg>
 
@@ -18,7 +20,7 @@ So in this article I will show you how I setup my elementary OS for development 
 
 ### 1. Update and upgrade your system
 
-After you install elementary, the default system is not up to date with all the packages and releases, so here why you need to update your system to 
+After you install elementary, the default system is not up to date with all the packages and releases, so here why you need to update your system to
 the latest version.
 
 ```bash
@@ -53,7 +55,7 @@ sudo apt install ubuntu-restricted-extras libavcodec-extra libdvd-pkg
 
 ### 4. Install Drivers
 
-Windows needs manufacturer-provided hardware drivers before your hardware will work. Linux and other operating systems also need hardware drivers before hardware 
+Windows needs manufacturer-provided hardware drivers before your hardware will work. Linux and other operating systems also need hardware drivers before hardware
 will work — but hardware drivers are handled differently on Linux. ... You may sometimes need to install drivers, but some hardware may just not work at all.
 
 ```bash
@@ -299,6 +301,7 @@ sudo apt-get purge plank
 ---
 
 ### 18. System Cleanup 🏁
+
 After you remove some apps, the data maybe still in your disk, to remove it just :
 
 ```bash
