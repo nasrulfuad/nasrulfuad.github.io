@@ -2,7 +2,7 @@
 title: "18 Things I Do After Install Elementary"
 summary: "In this article I will show you how I setup my Operating System for daily work as Software Engineer"
 date: 2021-11-10
-weight: 1
+weight: 2
 categories: ["tutorial", "elementary", "linux"]
 author: "Nasrul Fuad"
 cover:
