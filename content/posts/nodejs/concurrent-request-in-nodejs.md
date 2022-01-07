@@ -6,7 +6,7 @@ weight: 1
 categories: ["tutorial", "nodejs", "web developmnet", "backend engineer"]
 author: "Nasrul Fuad"
 cover:
-  image: ./images/concurrent-request-in-nodeJs-with-child-process.jpg
+  image: ./images/concurrent-request-in-nodejs/concurrent-request-in-nodeJs-with-child-process.jpg
 ---
 
 ### Intro ⚡
