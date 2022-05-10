@@ -4,25 +4,27 @@ layout: info
 title: "Experiences 🔥"
 url: "/experiences"
 summary: >
-    # Let's work together <br />
-    on your next project.
+  # Let's work together <br />
+  on your next project.
 
-    ---
+  ---
 
-    write to : [nasrulfuad@pm.me](mailto:nasrulfuad@pm.me)
+  write to : [nasrulfuad@pm.me](mailto:nasrulfuad@pm.me)
 ---
 
-<small>August 2018 - March 2021</small>
+<small>June 2021 – June 2022</small>
 
-# Quality Muslim Coder
+# PT. Qodrbee Berinovasi
 
-<small>Software Engineer</small>
+<small>Backend Developer</small>
 
-1.  Develop a web app registration member at qodr
-2.  Used Laravel, ReactJS, Ant Design and MySQL
-3.  IT Div Lead
-4.  Mentoring new member
-5.  and a lot of experiences i’ve got being a member
+1. Handle website and software application designing, building, or maintaining.
+2. Evaluate code to ensure it meets industry standards, is valid, is properly structured, and is compatible with browsers, devices, or operating systems.
+3. Report directly to the Project Manager.
+4. Determine user needs by analyzing technical requirements.
+5. Working with Docker for development and production.
+6. Implemented a Service Layer, Observable and other design patterns.
+7. Tech stack : NestJS, Postgresql, Prisma, BullJS.
 
 ---
 
@@ -32,24 +34,35 @@ summary: >
 
 <small>Web Developer</small>
 
-1.  Maintenance an ecommerce web app
-2.  Work with Laravel, livewire, bootstrap and etc.
-3.  Work with team
+1. Maintenance of an existing web ecommerce.
+2. Develop a catalog web app.
+3. Designing a database for understanding how the data flows.
+4. Back up files from Web sites to local directories for recovery.
+5. Tech stack : Laravel, MySql, Bootstrap.
+
 ---
 
-<small>June 2021 - Present</small>
+<small>February 2019 – April 2019</small>
 
-## PT. Qodrbee Berinovasi
+## Dlingo Digital Valley
 
-<small>Software Engineer</small>
+<small>Frontend Developer</small>
 
-1.  Used NestJS framework
-2.  Built an ecommerce webapp with auction-bid system
-3.  Develop a realtime bid using socket io
-4.  Created a queue job that take too long process to perform during a typical web request using bullJS
-5.  Implemented a Service Layer, Observable and another design patterns
-6.  Created an upload file service to the cloud (cloudinary)
-7.  Created a send email notification service
-8.  Worked with DOCKER for the development
-9.  Used Postgres database and Prisma ORM
-10. Develop a BOT Telegram
+1. Develop a company web pages.
+2. Handle website and software application designing, building, or maintaining.
+3. Direct or perform website updates.
+4. Tech stack : Javascript, JQuery, Bootstrap.
+
+---
+
+<small>August 2018 - March 2022</small>
+
+# Quality Muslim Coder (qodr.or.id)
+
+<small>Senior Web Developer</small>
+
+1. Develop a web registration for new members.
+2. I’ve also been an IT division lead.
+3. Mentoring new members and teached them the basics of programming.
+4. Teamwork, leadership, communication, planning, time management.
+5. Maintain an understanding of the latest Web applications and programming practices through education, study, and participation in conferences, workshops, and groups.

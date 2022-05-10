@@ -9,39 +9,36 @@ summary: >
 
 # Web Technologies
 
-*GraphQL / Git / Docker / Microservices*
+_GraphQL / Git / Docker / Microservices_
 
 <br/>
 
 # Frameworks & Libraries
 
-*NestJS / ReactJS / FabricJS / Ant Design*
+_NestJS / ReactJS / FabricJS / Ant Design_
 
 <br/>
-
 
 # Databases
 
-*MySQL / PostgreSQL / MongoDB*
+_MySQL / PostgreSQL / MongoDB_
 
 <br/>
-
 
 # Programming Languages
 
-*Typescript / Javascript / PHP*
+_Typescript / Javascript / PHP / Java_
 
 <br/>
 
-
 # Wanted
 
-*Java / Spring Boot / Kafka*
+_Spring Boot / Kafka_
 
 <br/>
 
 # Others
 
-*Redis / NodeJS / Websocket / Prisma ORM*
+_Redis / NodeJS / Websocket / Prisma ORM_
 
 <br/>
