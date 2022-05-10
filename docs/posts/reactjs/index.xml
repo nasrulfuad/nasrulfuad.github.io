@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ReactJS on nasrul.dev</title>
+    <link>https://nasrul.dev/posts/reactjs/</link>
+    <description>Recent content in ReactJS on nasrul.dev</description>
+    <image>
+      <url>https://nasrul.dev/cover.jpg</url>
+      <link>https://nasrul.dev/cover.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://nasrul.dev/posts/reactjs/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
