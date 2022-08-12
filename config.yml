@@ -124,11 +124,9 @@ params:
     enabled: true # needs to be explicitly set
     title: Nasrul Fuad
     subtitle: >
-      **Software engineer** with over 3 years of experiences in developing user interfaces,
-      debugging and building a web applications, incorporating a range of technologies
-      and experienced as a mentor web developer 🌟 at [**qodr.or.id**](https://qodr.or.id).
+      **Software Engineer** with 4 years of experiences in developing user interfaces, debugging and building a web applications, incorporating a range of technologies either for backend side and frontend side.
 
-    imageUrl: "/me.jpg"
+    imageUrl: "/me2.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: avatar

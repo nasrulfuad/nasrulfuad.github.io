@@ -9,13 +9,13 @@ summary: >
 
 # Web Technologies
 
-_GraphQL / Git / Docker / Microservices_
+_GraphQL / Websocket / Git / Web Server_
 
 <br/>
 
 # Frameworks & Libraries
 
-_NestJS / ReactJS / FabricJS / Ant Design_
+_NestJS / ReactJS / VueJS / NextJS / Redux / FabricJS / Ant Design_
 
 <br/>
 
@@ -39,6 +39,6 @@ _Spring Boot / Kafka_
 
 # Others
 
-_Redis / NodeJS / Websocket / Prisma ORM_
+_Redis / NodeJS / SQL / Prisma ORM / Docker / Microservices_
 
 <br/>
